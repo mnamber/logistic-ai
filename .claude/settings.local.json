@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip show:*)",
+      "Bash(.venv/bin/pip show:*)",
+      "Bash(python -c \"from fastmcp import FastMCP; print\\('OK', FastMCP\\)\")",
+      "Bash(python -c ':*)"
+    ]
+  }
+}
